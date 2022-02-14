@@ -1,0 +1,40 @@
+main{
+    background-color: rgb(17, 0, 255);
+    border: 1px solid rgb(16, 30, 220);
+    border-radius: 30px;
+    padding: 0px ;
+    text-align: center;
+    width: 370px;
+}
+div {
+    border: 1px solid rgba(136, 128, 128, 0.432);
+    border-radius: 5px;
+    width: 550px;
+    height: 550px;
+}
+
+input{
+    height: 35px;
+    border: 1px solid rgba(146, 146, 240, 0.384);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    width: 370px;
+    
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 30px;
+    padding: 10px 0px 10px;
+    width: 370px;
+    height: 60px;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: rgb(9, 9, 148) ;
+    color: white;
+    
+}
+.erreur{font-color:green;font-weight: bold;font-size: 25px;}
